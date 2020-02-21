@@ -1,0 +1,35 @@
+#mapiing
+ PUT vehicles
+{
+  "mappings": {
+    "properties": {
+      "model": {
+        "type": "keyword"
+      },
+      "model_code": {
+        "type": "keyword"
+      },
+      "year": {
+        "type": "keyword"
+      },
+      "dealer_price": {
+        "type": "keyword"
+      },
+      "exterior_discription":{
+        "type": "keyword"
+      },
+      "interior_discription":{
+        "type": "keyword"
+      },
+      "engine_displacement": {
+        "type": "keyword"
+      },
+      "engine_cylinder":{
+        "type": "keyword"
+      },
+      "mileage": {
+        "type": "keyword"
+      }
+    }
+  }
+}
