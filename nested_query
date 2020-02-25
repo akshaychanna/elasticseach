@@ -1,0 +1,14 @@
+GET test/_search
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "comments.rating": "5"
+          }
+        }
+      ]
+    }
+  }
+}
